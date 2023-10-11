@@ -8,19 +8,14 @@ body {
 }
 
 nav {
-  margin: 0 auto;
-  width: 100%;
-  height: auto;
   display: inline-block;
   background: #a1d719;
 }
 
 nav ul {
-  width: 100%;
   margin: 0;
   padding: 0;
   list-style-type: none;
-  float: left;
 }
 
 nav ul li {
@@ -65,9 +60,6 @@ nav img {
   width: 100%;
 }
 
-#logo {
-}
-
 #nav-image-container {
   width: 10%;
 }
@@ -82,13 +74,7 @@ h1 {
   font-size: 30px;
 }
 
-/* article {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-} */
-
-.image-container img {
+.image-container > img {
   width: 480px;
   height: 300px;
   float: left;
@@ -96,14 +82,13 @@ h1 {
 
 .column {
   float: left;
-  width: 45%;
-  padding-inline: 2.5%;
+  width: 50%;
+  text-align: center;
 }
 
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+.row {
+  display: flex;
+  align-items: center;
 }
 
 footer {
@@ -137,4 +122,48 @@ form > div {
   width: 50%;
   justify-content: space-between;
   display: flex;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table {
+  margin: auto;
+  width: 70%;
+  text-align: center;
+}
+
+th {
+  padding: 10px;
+  background-color: #91c517;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.three-images > img {
+  float: left;
+  width: 320px;
+  height: 200px;
+}
+
+.article-list {
+  display: flex;
+  justify-content: center;
+}
+
+.article-list > ul {
+  width: 70%;
+  text-align: justify;
+  list-style: auto;
+}
+
+.article-list > ul > li {
+  margin-top: 10px;
+}
+
+.location {
+  text-align: center;
 }
