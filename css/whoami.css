@@ -1,0 +1,15 @@
+.personalities {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #91c517;
+  border-bottom: 1px solid #91c517;
+}
+
+.personalities img {
+  width: 20%;
+}
+
+.right {
+  text-align: end;
+  margin-right: 25px;
+}

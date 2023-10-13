@@ -95,35 +95,6 @@ footer {
   text-align: center;
 }
 
-.personalities {
-  display: flex;
-  justify-content: space-between;
-  border-top: 1px solid #91c517;
-  border-bottom: 1px solid #91c517;
-}
-
-.personalities img {
-  width: 20%;
-}
-
-.right {
-  text-align: end;
-  margin-right: 25px;
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-form > div {
-  margin-top: 20px;
-  width: 50%;
-  justify-content: space-between;
-  display: flex;
-}
-
 table,
 th,
 td {
@@ -147,23 +118,4 @@ th {
   float: left;
   width: 320px;
   height: 200px;
-}
-
-.article-list {
-  display: flex;
-  justify-content: center;
-}
-
-.article-list > ul {
-  width: 70%;
-  text-align: justify;
-  list-style: auto;
-}
-
-.article-list > ul > li {
-  margin-top: 10px;
-}
-
-.location {
-  text-align: center;
 }
